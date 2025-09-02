@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <nav class="navlink">
-      <router-link to="/" class="link" id="first">Home</router-link> <div class="sp"></div>
-       <router-link to="/novosti" class="link">Novosti</router-link> <span class="sp"></span>
-      <router-link to="/about" class="link">About</router-link> <span class="sp"></span>
-      <router-link to="/contact" class="link">Contact</router-link> <span class="sp"></span>
+      <router-link to="/" class="link" id="first">Home</router-link> 
+       <router-link to="/novosti" class="link">Novosti</router-link> 
+      <router-link to="/about" class="link">About</router-link> 
+      <router-link to="/contact" class="link">Contact</router-link> 
       <router-link to="/raspored" class="link">Raspored</router-link>
     </nav>
     <hr />
