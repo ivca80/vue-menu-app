@@ -17,8 +17,8 @@ nav {
   background-color: red;
 }
 router-link {
-  margin: 0 10px;
+  margin: 10 10px;
   text-decoration: none;
-  color: #333;
+  color: yellow;
 }
 </style>
