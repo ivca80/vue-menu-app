@@ -14,7 +14,7 @@
 <style>
 nav {
   padding: 10px;
-  background-color: #f4f4f4;
+  background-color: red;
 }
 router-link {
   margin: 0 10px;
