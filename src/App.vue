@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import Header from './views/Header.vue';
+
+</script>
+
 <template>
   <div id="app">
+    <Header/>
     <nav class="navlink">
       <router-link to="/" class="link" id="first">Home</router-link> 
        <router-link to="/novosti" class="link">Novosti</router-link> 
@@ -13,20 +19,21 @@
 </template>
 
 <style>
-.sp {
-  display:inline;
-  width:5px;
-  background-color:white;
-  z-index: 100;
-}
-nav {
-  padding: 10px;
+
+.navlink {
+  
   background-color: red;
+  
 }
 .link {
-  padding: 10px 20px;
+  
+  display: inline-block;
   text-decoration: none;
   color: yellow;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 .link:hover {
   background-color: gray;
@@ -41,6 +48,7 @@ nav {
   .link {
     border-bottom: 2px solid white;
     text-align: center;
+    width: 100%;
   }
   #first {
     border-top: 2px solid white;
