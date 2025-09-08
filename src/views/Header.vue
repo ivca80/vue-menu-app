@@ -4,7 +4,7 @@
 <img class="slika" src="../assets/slike/math_logo.png">
 </div>
 <div class="centar">
- <p> Математика за основце </p>
+ <p :class="customClass"> Математика за основце </p>
 </div>
 <div class="desni">
 
@@ -15,7 +15,10 @@
 
 <script>
 export default {
-    name:'Header'
+    name:'Header',
+    props: {
+      customClass: { type: String, default: '' }
+    }
 }
 </script>
 
@@ -25,10 +28,12 @@ export default {
     flex-direction: row;
 }
 .slika {
-    margin:5px;
+    margin: 2px;
+    padding: 0;
 }
-p {
+.paragraph {
     font-size:30px;
+    color: blue;
 }
 .centar {
     display:flex;

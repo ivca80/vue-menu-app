@@ -5,7 +5,7 @@ import Header from './views/Header.vue';
 
 <template>
   <div id="app">
-    <Header/>
+    <Header customClass="red-text" />
     <nav class="navlink">
       <router-link to="/" class="link" id="first">Home</router-link> 
        <router-link to="/novosti" class="link">Novosti</router-link> 
@@ -17,6 +17,8 @@ import Header from './views/Header.vue';
     <router-view />
   </div>
 </template>
+
+
 
 <style>
 
@@ -39,6 +41,8 @@ import Header from './views/Header.vue';
   background-color: gray;
 }
 @media screen and (max-width: 600px) {
+
+   
   .navlink {
     display:flex;
     flex-direction: column;
@@ -53,5 +57,16 @@ import Header from './views/Header.vue';
   #first {
     border-top: 2px solid white;
   }
+  .smalltext {
+    font-size: 5px;
+    color: aliceblue;
+  }
+
+  .red-text {
+  color: red;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
 }
 </style>
