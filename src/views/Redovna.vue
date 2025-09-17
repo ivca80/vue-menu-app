@@ -1,0 +1,3 @@
+<template>
+    Redovna nastava
+</template>

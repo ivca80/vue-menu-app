@@ -1,15 +1,15 @@
 <template>
     <div class="container">
-<div class="levi" >
-<img class="slika" src="../assets/slike/math_logo.png">
-</div>
-<div class="centar">
- <p :class="customClass"> Математика за основце </p>
-</div>
-<div class="desni">
+        <div class="levi" >
+         <img class="slika" src="../assets/slike/math_logo.png">
+        </div>
+          <div class="centar">
+           <p :class="customClass"> Математика за основце </p>
+          </div>
+        <div class="desni">
 
-</div>
-</div>
+        </div>
+    </div>
 
 </template>
 
@@ -44,10 +44,12 @@ export default {
 }
 .levi {
     width: 20%;
-    display: inline;
+    display: flex;
+    align-items: center;
     background-color: green;
 }
 .desni {
     width: 20%;
+    background-color: green;
 }
 </style>
